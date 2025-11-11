@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'DEPLOYED by SHOBAN using git DEVOPS at mxfy...  :)  !\n'
+  const msg = '$DEPLOYED by SHOBAN using git DEVOPS at mxfy...  :)$ !\n'
   res.end(msg); 
 });
 
